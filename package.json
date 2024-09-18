@@ -1,0 +1,23 @@
+{
+  "name": "wassup",
+  "version": "1.0.0",
+  "description": "Realtime chat app using socket.io and vanilla JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "serve": "node server",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cosmos": "^4.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "socket.io": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
